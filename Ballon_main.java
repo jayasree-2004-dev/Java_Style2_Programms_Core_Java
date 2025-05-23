@@ -1,0 +1,28 @@
+class Ballon_main
+{
+public static void main(String[] args)
+{
+Ballon b1=new Ballon();
+Ballon b2=new Ballon();
+Ballon b3=new Ballon();
+Ballon b4=new Ballon();
+Ballon b5=new Ballon();
+
+b1.ballonType("Blue");
+b2.ballonType("Blue");
+b3.ballonType("Blue");
+b4.ballonType("Blue");
+b5.ballonType("Blue");
+
+b1.ballonInformation();
+
+System.out.println("***------------------------***");
+b2.ballonInformation();
+System.out.println("***------------------------***");
+b3.ballonInformation();
+System.out.println("***------------------------***");
+b4.ballonInformation();
+System.out.println("***------------------------***");
+b5.ballonInformation();
+}
+}

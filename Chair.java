@@ -1,0 +1,22 @@
+class Chair
+{
+private static String material="Wood";
+private String Type;
+
+public void chairType(String type)
+{
+if(type.equals("Office Chair") || type.equals("Dinning Chair") || type.equals("Reclainer"))
+	{              
+Type=type;
+	}
+else
+	{
+System.err.println("Chair type should be Office chair or Dinning chair or Reclainer");
+	}
+}
+public void DisplayChairDetails()
+{
+System.out.println("Chair material is:"+material);
+System.out.println("Chair type is:"+Type);
+}
+}
